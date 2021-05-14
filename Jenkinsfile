@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:3.3.3'
-            args '-v //C:\Users\Noah\.m2'
+            args '-v //C:/Users/Noah/.m2'
         }
     }
     stages {
